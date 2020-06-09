@@ -12,7 +12,7 @@ def get_missing_values(lst):
         values.add(number)
 
     for number in range(1, 1000001):
-        # Accessing a value in a set has linear time complexity, (O(1)).
+        # Accessing a value in a set has constant time complexity, (O(1)).
         if number not in values:
             missing_values.add(number)
 
